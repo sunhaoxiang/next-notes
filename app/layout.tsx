@@ -1,8 +1,11 @@
+import { ReactNode } from 'react'
 import './style.css'
 import Sidebar from '@/components/Sidebar'
 
 export default async function RootLayout({
   children
+} : {
+  children: ReactNode
 }) {
 
   return (
